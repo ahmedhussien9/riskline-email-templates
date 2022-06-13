@@ -1,0 +1,27 @@
+@import "../variables";
+
+.getStartedContainer {
+    display: flex;
+    background: rgb(2, 67, 61);
+    padding: 1.8rem 1rem;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1.5rem 0rem;
+
+    .title {
+        color: $white;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 550px) {
+        display: block;
+        margin: auto;
+        text-align: center;
+        .title {
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+    }
+}

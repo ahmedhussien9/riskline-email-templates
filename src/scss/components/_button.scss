@@ -1,0 +1,44 @@
+@import "../variables";
+
+.riskline-button {
+    margin-left: auto;
+    background: rgb(250, 7, 44);
+    color: $white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.8rem 1.9rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Buttons styles start */
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 24px;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+/* Button styles end */

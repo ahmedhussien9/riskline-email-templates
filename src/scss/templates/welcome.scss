@@ -1,0 +1,60 @@
+@import "./../components/footer";
+@import "./../components/button";
+@import "../variables";
+.main {
+    max-width: 450px;
+    margin: auto;
+    padding: 0rem 1rem;
+}
+.welcome-wrap {
+    margin: 2rem 1rem;
+    .realTime-alert-messaging {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $light-white;
+        position: relative;
+        padding: 3rem 1rem;
+        border-radius: $round-corner;
+        margin-bottom: 2rem;
+        .logo-icon {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            width: 20px;
+            height: 20px;
+        }
+        .title {
+            margin-bottom: 2rem;
+        }
+        .alert-image {
+            height: 256px;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .email-content {
+        background: $light-gray;
+        padding: 3rem 2rem;
+        border-radius: $round-corner;
+        line-height: 1.5rem;
+        .title {
+            margin-bottom: 1.5rem;
+        }
+        .content {
+            font-weight: 450;
+            margin-bottom: 1rem;
+        }
+        .riskline-button {
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.footer {
+    margin: 0rem 1rem;
+}

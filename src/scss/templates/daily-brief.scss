@@ -1,0 +1,81 @@
+@import "./../variables";
+@import "../mixins/card-container.mixin";
+@import "../mixins/flag-item.mixin";
+@import "../mixins/risk-level.container.mixin";
+
+@import "./../components/footer";
+@import "./../components/button";
+@import "./../components/get-started-section.scss";
+
+.main {
+    max-width: 700px;
+    margin: auto;
+    padding: 0rem 1rem;
+}
+.dailyBrief {
+    background: #f1f1f1;
+    padding-bottom: 1rem;
+    &__header {
+        background-image: url("../../assets/images/daily-brief-bg.jpg");
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        &__title {
+            font-size: 40px;
+            color: $white;
+            line-height: 4rem;
+            @media screen and (max-width: 550px) {
+                font-size: 25px;
+            }
+        }
+        &__date {
+            font-size: 20px;
+            color: $white;
+        }
+    }
+
+    &__category {
+        margin: 2rem 1rem;
+        &__item {
+            @include card-container;
+            &__header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1.5rem;
+                .title {
+                    text-transform: uppercase;
+                    font-size: 18px;
+                }
+                .flag {
+                    @include flag-item;
+                }
+            }
+
+            &__body {
+                .title {
+                    font-size: 18px;
+                    @media screen and (max-width: 550px) {
+                        font-size: 16px;
+                    }
+                }
+                .text {
+                    font-size: 18px;
+                    line-height: 1.5rem;
+                    @media screen and (max-width: 550px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .riskLevel {
+                    @include riskLevelContainer;
+                }
+            }
+        }
+    }
+}

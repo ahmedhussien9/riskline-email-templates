@@ -1,0 +1,42 @@
+@mixin riskLevelContainer {
+    margin: 2rem 0rem;
+    .wrap {
+        display: inline-flex;
+        background: #f1f1f1;
+        width: auto;
+        align-items: center;
+        padding: 0.8rem;
+        border-radius: 10px;
+        .title {
+            margin-right: 10px;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+        &__levels {
+            display: flex;
+            grid-gap: 0.2rem;
+            gap: 0.2rem;
+            align-items: center;
+            &__item {
+                position: relative;
+                width: 0.6rem;
+                height: 1.8rem;
+                border-radius: 50px;
+                &:nth-of-type(1),
+                &:nth-of-type(2) {
+                    background: #000;
+                }
+                &:nth-of-type(3),
+                &:nth-of-type(4),
+                &:nth-of-type(5),
+                &:nth-of-type(6),
+                &:nth-of-type(7),
+                &:nth-of-type(8),
+                &:nth-of-type(9),
+                &:nth-of-type(10) {
+                    background: #ccc;
+                }
+            }
+        }
+    }
+}

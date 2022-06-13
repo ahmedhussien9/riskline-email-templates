@@ -1,0 +1,136 @@
+.footer {
+  margin: 2rem 0rem;
+  background: #f8f4f5;
+  border-radius: 8px;
+  padding: 1.8rem 1rem;
+}
+.footer .logo {
+  width: 117px;
+  height: 23px;
+  margin-bottom: 3rem;
+}
+.footer .list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 1rem;
+}
+.footer .list__item {
+  font-weight: bold;
+  font-size: 10px;
+}
+.footer .list__item:nth-of-type(2) {
+  margin: 0rem 0.5rem;
+}
+.footer .list__item:nth-of-type(2)::before {
+  content: " |  ";
+  margin: 0rem 0.5rem;
+  color: rgb(19, 231, 182);
+}
+.footer .list__item:nth-of-type(2)::after {
+  content: " |  ";
+  margin: 0rem 0.5rem;
+  color: rgb(19, 231, 182);
+}
+.footer .list__item__link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.footer .subscription-text {
+  display: block;
+}
+.footer .subscription-text,
+.footer .copy-right {
+  font-size: 10px;
+  color: #9b9b9b;
+  line-height: 1rem;
+}
+
+.riskline-button {
+  margin-left: auto;
+  background: rgb(250, 7, 44);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.8rem 1.9rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Buttons styles start */
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 24px;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+/* Button styles end */
+.main {
+  max-width: 450px;
+  margin: auto;
+  padding: 0rem 1rem;
+}
+
+.contact-thanks-wrap {
+  margin: 2rem 0rem;
+}
+.contact-thanks-wrap .thanks-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f4f5;
+  position: relative;
+  padding: 4rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.contact-thanks-wrap .thanks-card .logo-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+}
+.contact-thanks-wrap .thanks-card .title {
+  font-size: 25px;
+  margin: 2rem 0rem;
+  font-weight: 300;
+}
+.contact-thanks-wrap .help-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 1rem 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  background: #edf1f4;
+  border-radius: 8px;
+}
+.contact-thanks-wrap .help-wrap .content {
+  line-height: 2rem;
+}
+.contact-thanks-wrap .help-wrap .btn {
+  margin-top: 1rem;
+  margin: 1.5rem auto;
+}

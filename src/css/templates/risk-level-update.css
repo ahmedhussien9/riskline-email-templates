@@ -1,0 +1,241 @@
+.footer {
+  margin: 2rem 0rem;
+  background: #f8f4f5;
+  border-radius: 8px;
+  padding: 1.8rem 1rem;
+}
+.footer .logo {
+  width: 117px;
+  height: 23px;
+  margin-bottom: 3rem;
+}
+.footer .list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 1rem;
+}
+.footer .list__item {
+  font-weight: bold;
+  font-size: 10px;
+}
+.footer .list__item:nth-of-type(2) {
+  margin: 0rem 0.5rem;
+}
+.footer .list__item:nth-of-type(2)::before {
+  content: " |  ";
+  margin: 0rem 0.5rem;
+  color: rgb(19, 231, 182);
+}
+.footer .list__item:nth-of-type(2)::after {
+  content: " |  ";
+  margin: 0rem 0.5rem;
+  color: rgb(19, 231, 182);
+}
+.footer .list__item__link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.footer .subscription-text {
+  display: block;
+}
+.footer .subscription-text,
+.footer .copy-right {
+  font-size: 10px;
+  color: #9b9b9b;
+  line-height: 1rem;
+}
+
+.riskline-button {
+  margin-left: auto;
+  background: rgb(250, 7, 44);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.8rem 1.9rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Buttons styles start */
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 24px;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+/* Button styles end */
+.main {
+  max-width: 450px;
+  margin: auto;
+  padding: 0rem 1rem;
+}
+
+.riskLevelUpdate {
+  margin: 2rem 0rem;
+}
+.riskLevelUpdate .countryUpdate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f4f5;
+  position: relative;
+  padding: 4rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.riskLevelUpdate .countryUpdate .logo-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+}
+.riskLevelUpdate .countryUpdate .title {
+  font-size: 25px;
+  margin: 2rem 0rem;
+  font-weight: 300;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old {
+  background: #fff;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 0.33rem 0.7rem 0.5rem 0.7rem;
+  opacity: 0.4;
+  width: 120px;
+  margin-bottom: 0.5rem;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__title {
+  line-height: 1.3rem;
+  font-size: 12px;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels {
+  display: flex;
+  grid-gap: 0.2rem;
+  gap: 0.2rem;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels__item {
+  position: relative;
+  width: 0.6rem;
+  height: 1.3rem;
+  border-radius: 50px;
+  background: #fff;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels [alert-type="1"] {
+  background: #33825b;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels [alert-type="2"] {
+  background: #44ae72;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels [alert-type="3"] {
+  background: #fac84a;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels [alert-type="4"] {
+  background: #de8652;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__old__levels [alert-type="5"] {
+  background: #8b0000;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new {
+  background: #fff;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 0.7rem 1rem;
+  position: relative;
+  box-shadow: 0 10px 10px -10px #000000;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new .new-tag {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  background: #000;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  font-size: 12px;
+  border-radius: 10px;
+  font-weight: 200;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__title {
+  line-height: 1.8rem;
+  font-size: 16px;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels {
+  display: flex;
+  grid-gap: 0.4rem;
+  gap: 0.4rem;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels__item {
+  position: relative;
+  width: 1.1rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  background: #fff;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels [alert-type="1"] {
+  background: #33825b;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels [alert-type="2"] {
+  background: #44ae72;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels [alert-type="3"] {
+  background: #fac84a;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels [alert-type="4"] {
+  background: #de8652;
+}
+.riskLevelUpdate .countryUpdate .riskLevelCountry__new__levels [alert-type="5"] {
+  background: #8b0000;
+}
+.riskLevelUpdate .message-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1rem 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  background: #edf1f4;
+  border-radius: 8px;
+}
+.riskLevelUpdate .message-wrap .country-flag {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+.riskLevelUpdate .message-wrap .content {
+  line-height: 1.2rem;
+  text-align: center;
+}
+.riskLevelUpdate .message-wrap .btn {
+  margin-top: 1rem;
+  margin: 1.5rem auto;
+}

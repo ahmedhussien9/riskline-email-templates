@@ -1,0 +1,7 @@
+@mixin card-container {
+    background: $white;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0rem;
+}

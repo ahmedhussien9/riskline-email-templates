@@ -1,0 +1,51 @@
+@import "../variables";
+.footer {
+    margin: 2rem 0rem;
+    background: $light-white;
+    border-radius: $round-corner;
+    padding: 1.8rem 1rem;
+    .logo {
+        width: 117px;
+        height: 23px;
+        margin-bottom: 3rem;
+    }
+    .list {
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+        margin-bottom: 1rem;
+        &__item {
+            font-weight: bold;
+            font-size: 10px;
+            &:nth-of-type(2) {
+                margin: 0rem 0.5rem;
+                &::before {
+                    content: " |  ";
+                    margin: 0rem 0.5rem;
+                    color: rgb(19, 231, 182);
+                }
+                &::after {
+                    content: " |  ";
+                    margin: 0rem 0.5rem;
+                    color: rgb(19, 231, 182);
+                }
+            }
+
+            &__link {
+                cursor: pointer;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+    .subscription-text {
+        display: block;
+    }
+
+    .subscription-text,
+    .copy-right {
+        font-size: 10px;
+        color: #9b9b9b;
+        line-height: 1rem;
+    }
+}
