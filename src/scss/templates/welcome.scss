@@ -7,7 +7,7 @@
     padding: 0rem 1rem;
 }
 .welcome-wrap {
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     .realTime-alert-messaging {
         display: flex;
         flex-direction: column;
@@ -17,7 +17,7 @@
         position: relative;
         padding: 3rem 1rem;
         border-radius: $round-corner;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         .logo-icon {
             position: absolute;
             left: 15px;
@@ -27,6 +27,7 @@
         }
         .title {
             margin-bottom: 2rem;
+            font-size: 20px;
         }
         .alert-image {
             height: 256px;
@@ -44,8 +45,8 @@
             margin-bottom: 1.5rem;
         }
         .content {
-            font-weight: 450;
             margin-bottom: 1rem;
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
         }
         .riskline-button {
             margin: 2rem auto;

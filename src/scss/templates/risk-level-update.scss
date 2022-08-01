@@ -4,12 +4,11 @@
 
 .main {
     max-width: 450px;
-    margin: auto;
+    margin: 1rem auto;
     padding: 0rem 1rem;
 }
 
 .riskLevelUpdate {
-    margin: 2rem 0rem;
     .countryUpdate {
         display: flex;
         flex-direction: column;
@@ -89,6 +88,7 @@
                 -webkit-box-shadow: 0 10px 10px -10px #000000;
                 -moz-box-shadow: 0 10px 10px -10px #000000;
                 box-shadow: 0 10px 10px -10px #000000;
+                text-transform: uppercase;
                 .new-tag {
                     position: absolute;
                     top: -15px;
@@ -108,7 +108,7 @@
                     display: flex;
                     grid-gap: 0.4rem;
                     gap: 0.4rem;
-
+                    margin: 0.5rem 0rem;
                     &__item {
                         position: relative;
                         width: 1.1rem;
@@ -157,6 +157,7 @@
         .content {
             line-height: 1.2rem;
             text-align: center;
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
         }
         .btn {
             margin-top: 1rem;

@@ -13,6 +13,26 @@ body {
         url("../../fonts/GT-Flexa-Standard-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: Helvetica-Regular;
+    src: url("/assets/fonts/Helvetica/Helvetica-Font-regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Helvetica-semi-bold;
+    src: url("/assets/fonts/Helvetica/FreeSansBold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url("/assets/fonts/inter/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url("/assets/fonts/inter/Inter-Regular.otf") format("opentype");
+}
 html,
 body,
 div,

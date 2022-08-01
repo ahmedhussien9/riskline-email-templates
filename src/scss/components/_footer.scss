@@ -1,6 +1,6 @@
 @import "../variables";
 .footer {
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     background: $light-white;
     border-radius: $round-corner;
     padding: 1.8rem 1rem;
@@ -16,12 +16,13 @@
         margin-bottom: 1rem;
         &__item {
             font-weight: bold;
-            font-size: 10px;
+            font-size: 12px;
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
             &:nth-of-type(2) {
-                margin: 0rem 0.5rem;
+                margin: 0rem 0.2rem;
                 &::before {
                     content: " |  ";
-                    margin: 0rem 0.5rem;
+                    margin: 0rem 0.2rem;
                     color: rgb(19, 231, 182);
                 }
                 &::after {
@@ -44,8 +45,9 @@
 
     .subscription-text,
     .copy-right {
-        font-size: 10px;
+        font-size: 12px;
         color: #9b9b9b;
         line-height: 1rem;
+        font-family: Helvetica-Regular, Helvetica, sans-serif;
     }
 }

@@ -17,59 +17,51 @@
         <section class="news-alerts">
             <section class="country-card">
                 <div class="body">
-                    <img class="logo-icon" src="./src/assets/images/logo-icon.png">
                     <div class="header">
-                        <h1 class="title">Brazil</h1>
-                        <img class="flag-sm" src="./src/assets/images/Flag-India.jpg" />
+                        <div class="header__logos">
+                            <img class="header__logos__riskline" src="./src/assets/images/logo-icon.png">
+                            <img class="header__logos__country" src="./src/assets/images/Flag-India.jpg">
+                        </div>
+                        <div class="header__sub">
+                            <h1 class="header__sub__countryName">Brazil</h1>
+                            <h2 class="header__sub__alertTitle">Bahia lifts statewide COVID-19 outdoor mask mandate</h2>
+                        </div>
                     </div>
-                    <h2 class="sub-title">Bahia lifts statewide COVID-19 outdoor mask mandate</h2>
-                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure sed qui.
-                        Repellendus dolorum nam
-                        expedita doloribus molestiae voluptatibus eos veritatis quibusdam laborum? Assumenda ab laborum
-                        laboriosam beatae aspernatur quos? Placeat quod corrupti animi quam id?</p>
-                    <h5 class="advice-title">Advice</h5>
-                    <p class="content">Follow all offical directives</p>
-                </div>
-                <div class="flag">
-                    <img src="./src/assets/images/circle-flag.png" class="img-fluid" />
-                </div>
-            </section>
+                    <section class="wrap">
+                        <section class="riskLevel">
+                            <header class="riskLevel__header">
+                                <h3 class="riskLevel__header__title">Risk Level</h3>
+                                <h6 class="riskLevel__header__subTitle">Medium</h6>
+                            </header>
+                            <div class="riskLevel__levels">
+                                <!---->
+                                <!---->
+                                <!--@Todo please loop over two items below and then  pass the risklevel  value of alert type -->
+                                <!---->
+                                <!---->
+                                <div class="riskLevel__levels__item" alert-type="1"></div>
+                                <div class="riskLevel__levels__item" alert-type="1"></div>
 
-            <section class="wrap">
-                <section class="riskLevel">
-                    <header class="riskLevel__header">
-                        <h3 class="riskLevel__header__title">Risk Level</h3>
-                        <h6 class="riskLevel__header__subTitle">Medium</h6>
-                    </header>
-                    <div class="riskLevel__levels">
-                        <!---->
-                        <!---->
-                        <!--@Todo please loop over two items below and then  pass the risklevel  value of alert type -->
-                        <!---->
-                        <!---->
-                        <div class="riskLevel__levels__item" alert-type="1"></div>
-                        <div class="riskLevel__levels__item" alert-type="1"></div>
+                                <div class="riskLevel__levels__item" alert-type="2"></div>
+                                <div class="riskLevel__levels__item" alert-type="2"></div>
+                                <div class="riskLevel__levels__item" alert-type="3"></div>
+                                <div class="riskLevel__levels__item" alert-type="3"></div>
+                                <div class="riskLevel__levels__item" alert-type="4"></div>
+                                <div class="riskLevel__levels__item" alert-type="4"></div>
+                                <div class="riskLevel__levels__item" alert-type="5"></div>
+                                <div class="riskLevel__levels__item" alert-type="5"></div>
+                            </div>
+                        </section>
 
-                        <div class="riskLevel__levels__item" alert-type="2"></div>
-                        <div class="riskLevel__levels__item" alert-type="2"></div>
-                        <div class="riskLevel__levels__item" alert-type="3"></div>
-                        <div class="riskLevel__levels__item" alert-type="3"></div>
-                        <div class="riskLevel__levels__item" alert-type="4"></div>
-                        <div class="riskLevel__levels__item" alert-type="4"></div>
-                        <div class="riskLevel__levels__item" alert-type="5"></div>
-                        <div class="riskLevel__levels__item" alert-type="5"></div>
-                    </div>
-                </section>
-
-                <section class="riskLevel">
-                    <header class="riskLevel__header">
-                        <h3 class="riskLevel__header__title">Category</h3>
-                        <h6 class="riskLevel__header__subTitle">Health & Medical</h6>
-                    </header>
-                    <div class="riskLevel__categoryIcon">
-                        <img src="./src/assets/icons/conflict.svg" />
-                        <!--@Todo Below are the categories which exist you could use conditions to show the required one-->
-                        <!-- <img src="./src/assets/icons/country.svg" />
+                        <section class="riskLevel">
+                            <header class="riskLevel__header">
+                                <h3 class="riskLevel__header__title">Category</h3>
+                                <h6 class="riskLevel__header__subTitle">Health & Medical</h6>
+                            </header>
+                            <div class="riskLevel__categoryIcon">
+                                <img src="./src/assets/icons/conflict.svg" />
+                                <!--@Todo Below are the categories which exist you could use conditions to show the required one-->
+                                <!-- <img src="./src/assets/icons/country.svg" />
                         <img src="./src/assets/icons/covid-19.svg" />
                         <img src="./src/assets/icons/crime.svg" />
                         <img src="./src/assets/icons/leaf.svg" />
@@ -78,9 +70,23 @@
                         <img src="./src/assets/icons/political.svg" />
                         <img src="./src/assets/icons/travel.svg" />
                         <img src="./src/assets/icons/unrest.svg" /> -->
+                            </div>
+                        </section>
+                    </section>
+
+                    <div class="alert-content">
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure sed qui.
+                            Repellendus dolorum nam
+                            expedita doloribus molestiae voluptatibus eos veritatis quibusdam laborum? Assumenda ab
+                            laborum
+                            laboriosam beatae aspernatur quos? Placeat quod corrupti animi quam id?</p>
+                        <h5 class="advice-title">Advice</h5>
+                        <p class="content">Follow all offical directives</p>
                     </div>
-                </section>
+
+                </div>
             </section>
+
 
         </section>
 

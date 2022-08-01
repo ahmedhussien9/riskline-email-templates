@@ -4,12 +4,11 @@
 
 .main {
     max-width: 450px;
-    margin: auto;
     padding: 0rem 1rem;
+    margin: 1rem auto;
 }
 
 .contact-thanks-wrap {
-    margin: 2rem 0rem;
     .thanks-card {
         display: flex;
         flex-direction: column;
@@ -31,9 +30,9 @@
             font-size: 25px;
             margin: 2rem 0rem;
             font-weight: 300;
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
         }
     }
-
     .help-wrap {
         display: flex;
         flex-direction: column;
@@ -43,9 +42,11 @@
         background: $light-gray;
         border-radius: $round-corner;
         .title {
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
         }
         .content {
             line-height: 2rem;
+            font-family: Helvetica-Regular, Helvetica, sans-serif;
         }
         .btn {
             margin-top: 1rem;
