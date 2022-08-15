@@ -172,7 +172,6 @@ button:active {
   padding: 0.5rem 1rem 0.7rem 1rem;
   position: relative;
   box-shadow: 0 10px 10px -10px #000000;
-  text-transform: uppercase;
 }
 .riskLevelUpdate .countryUpdate .riskLevelCountry__new .new-tag {
   position: absolute;

@@ -101,7 +101,7 @@ button:active {
   margin: 1rem auto;
 }
 .main .news-alerts .country-card .body .header {
-  background: #f1f1f1;
+  background: #f8f4f5;
   position: relative;
   border-radius: 10px;
   padding: 1rem 1.5rem;
@@ -112,6 +112,7 @@ button:active {
   margin-bottom: 3rem;
 }
 .main .news-alerts .country-card .body .header__logos__riskline {
+  margin-left: auto;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -125,7 +126,6 @@ button:active {
   }
 }
 .main .news-alerts .country-card .body .header__logos__country {
-  margin-left: auto;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -150,20 +150,40 @@ button:active {
   font-size: 25px;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-family: Helvetica-semi-bold, Helvetica, sans-serif;
 }
-.main .news-alerts .alert-content {
+.main .news-alerts .alert-content-1 {
+  position: relative;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  font-family: Helvetica-semi-bold, Helvetica, sans-serif;
+}
+.main .news-alerts .alert-content-1 .text {
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.main .news-alerts .alert-content-1__dates {
+  margin-top: 1rem;
+  display: flex;
+  border-bottom: 1.5px solid #f1f1f1;
+  padding-bottom: 0.5rem;
+}
+.main .news-alerts .alert-content-1__dates h6 {
+  flex: 1;
+  font-weight: normal;
+}
+.main .news-alerts .alert-content-2 {
   background: #edf1f4;
   position: relative;
   border-radius: 10px;
   padding: 1rem 1.5rem;
 }
-.main .news-alerts .alert-content .content {
+.main .news-alerts .alert-content-2 .content {
   line-height: 1.5rem;
   font-family: Helvetica-semi-bold, Helvetica, sans-serif;
 }
-.main .news-alerts .alert-content .advice-title {
+.main .news-alerts .alert-content-2 .advice-title {
   line-height: 1.5rem;
-  margin-top: 1.5rem;
   font-family: Helvetica-Regular, Helvetica, sans-serif;
 }
 .main .news-alerts .wrap {
@@ -179,7 +199,7 @@ button:active {
 }
 .main .news-alerts .wrap .riskLevel {
   min-height: 120px;
-  background: #f1f1f1;
+  background: #f8f4f5;
   border-radius: 10px;
   padding: 1.5rem;
   display: flex;

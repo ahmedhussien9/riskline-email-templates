@@ -147,7 +147,7 @@ button:active {
 }
 @media screen and (max-width: 550px) {
   .dailyBrief__header__title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .dailyBrief__header__date {
@@ -197,7 +197,7 @@ button:active {
 .dailyBrief__category__item__body .title {
   font-size: 20px;
   font-family: Helvetica-Regular, Helvetica, sans-serif;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 @media screen and (max-width: 550px) {
   .dailyBrief__category__item__body .title {
@@ -246,10 +246,16 @@ button:active {
 }
 .dailyBrief__category__item__body .wrap .riskLevel__levels__item {
   position: relative;
-  width: 0.7rem;
-  height: 2rem;
+  width: 1.2rem;
+  height: 1.2rem;
   border-radius: 50px;
   background: #ccc;
+}
+@media screen and (max-width: 600px) {
+  .dailyBrief__category__item__body .wrap .riskLevel__levels__item {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
 }
 .dailyBrief__category__item__body .wrap .riskLevel__levels [alert-type="1"] {
   background: #33825b;
@@ -267,7 +273,7 @@ button:active {
   background: #8b0000;
 }
 .dailyBrief__category__item__body .riskLevel {
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
 }
 .dailyBrief__category__item__body .riskLevel .wrap {
   display: inline-flex;

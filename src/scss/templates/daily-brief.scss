@@ -35,7 +35,7 @@
             font-family: Helvetica-Regular, Helvetica, sans-serif;
 
             @media screen and (max-width: 550px) {
-                font-size: 30px;
+                font-size: 25px;
             }
         }
         &__date {
@@ -73,7 +73,7 @@
                 .title {
                     font-size: 20px;
                     font-family: Helvetica-Regular, Helvetica, sans-serif;
-                    line-height: 1.2rem;
+                    line-height: 1.5rem;
                     @media screen and (max-width: 550px) {
                         font-size: 16px;
                     }
@@ -93,6 +93,7 @@
                     display: grid;
                     grid-template-columns: 1fr;
                     margin: 0.5rem 0rem;
+
                     @media screen and (min-width: 600px) {
                         grid-template-columns: 1fr 1fr;
                     }
@@ -105,8 +106,6 @@
                         flex-direction: column;
                         justify-content: space-between;
                         &__header {
-                            &__title {
-                            }
                             &__subTitle {
                                 font-size: 20px;
                                 font-weight: 100;
@@ -119,10 +118,14 @@
                             gap: 0.2rem;
                             &__item {
                                 position: relative;
-                                width: 0.7rem;
-                                height: 2rem;
+                                width: 1.2rem;
+                                height: 1.2rem;
                                 border-radius: 50px;
                                 background: #ccc;
+                                @media screen and (max-width: 600px) {
+                                    width: 0.8rem;
+                                    height: 0.8rem;
+                                }
                             }
                             [alert-type="1"] {
                                 background: $green;
