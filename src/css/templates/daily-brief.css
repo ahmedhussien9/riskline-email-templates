@@ -143,7 +143,7 @@ button:active {
   font-size: 40px;
   color: #fff;
   line-height: 4rem;
-  font-family: Helvetica-Regular, Helvetica, sans-serif;
+  font-family: "GT-FLEXA";
 }
 @media screen and (max-width: 550px) {
   .dailyBrief__header__title {
@@ -156,7 +156,7 @@ button:active {
   font-family: Inter-Regular, Helvetica, sans-serif;
 }
 .dailyBrief__category {
-  margin: 2rem 1rem;
+  margin: 1rem 1rem;
 }
 .dailyBrief__category__title {
   color: #25b0c1;

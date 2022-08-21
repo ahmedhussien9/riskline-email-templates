@@ -227,8 +227,8 @@ button:active {
 }
 .riskLevelUpdate .message-wrap .country-flag {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1.5rem;

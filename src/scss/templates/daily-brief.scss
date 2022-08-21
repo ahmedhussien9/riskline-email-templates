@@ -32,8 +32,7 @@
             font-size: 40px;
             color: $white;
             line-height: 4rem;
-            font-family: Helvetica-Regular, Helvetica, sans-serif;
-
+            font-family: "GT-FLEXA";
             @media screen and (max-width: 550px) {
                 font-size: 25px;
             }
@@ -46,7 +45,7 @@
     }
 
     &__category {
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
         &__title {
             color: #25b0c1;
             font-family: GT-FLEXA, Helvetica, sans-serif;
